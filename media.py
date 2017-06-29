@@ -11,7 +11,8 @@ class Movie():
         trailer_youtube (str): URL of youtube trailer
     """
 
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]  # This variable is in all caps because it should not change value.
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]  # This variable is in all caps
+    #  because it should not change value.
 
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
