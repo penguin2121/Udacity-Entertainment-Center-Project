@@ -36,4 +36,5 @@ ghost_busters = media.Movie("Ghost Busters (Original)",
                             "https://www.youtube.com/watch?v=eowrFdpcRbs")
 
 movies = [toy_story, avatar, first_contact, logan, ratatouille, ghost_busters]
-fresh_tomatoes.open_movies_page(movies) # Create movie page based on list of movie instances
+fresh_tomatoes.open_movies_page(movies)  # Create movie page based on
+# list of movie instances
